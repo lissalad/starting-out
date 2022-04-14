@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import InstallReact from "./components/pages/InstallReact";
+import InstallReact from "./components/pages/react/InstallReact";
 
 function App() {
 
