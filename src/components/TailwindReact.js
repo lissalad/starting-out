@@ -5,12 +5,12 @@ function TailwindReact() {
       <div className="box">
         {/* ------- tailwind ---------- */}
         <h1 className="title">
-          add <a href="https://tailwindcss.com/">tailwind</a>
+          add <a href="https://tailwindcss.com/">tailwind</a> to react
         </h1>
 
         {/* install */}
         <div className="chunk">
-          <p>install tailwind:</p>
+          <p>install tailwind</p>
           <div className="terminal">
             <p>npm install -D tailwindcss postcss autoprefixer</p>
             <p>npx tailwindcss init -p</p>

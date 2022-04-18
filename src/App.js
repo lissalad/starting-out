@@ -1,16 +1,19 @@
 import "./App.css";
 import Header from "./components/Header";
-import InstallReact from "./components/pages/react/InstallReact";
+import JinjaHelp from "./components/JinjaHelp";
+import ReactInstall from "./components/ReactInstall";
+import FlaskProject from "./components/FlaskProject";
+import TailwindReact from "./components/TailwindReact";
 
 function App() {
-
-  
-
   return (
     <div className="App">
       <Header />
-      <main className="m-3">
-        <InstallReact />
+      <main className="m-3 flex flex-row flex-wrap">
+        <JinjaHelp />
+        <FlaskProject />
+        <ReactInstall />
+        <TailwindReact />
       </main>
     </div>
   );
