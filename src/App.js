@@ -4,16 +4,18 @@ import JinjaHelp from "./components/JinjaHelp";
 import ReactInstall from "./components/ReactInstall";
 import FlaskProject from "./components/FlaskProject";
 import TailwindReact from "./components/TailwindReact";
+import GithubRepo from "./components/GithubRepo";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main className="m-3 flex flex-row flex-wrap">
-        <JinjaHelp />
-        <FlaskProject />
-        <ReactInstall />
-        <TailwindReact />
+        <GithubRepo />
+        {/* <JinjaHelp /> */}
+        {/* <FlaskProject /> */}
+        {/* <ReactInstall /> */}
+        {/* <TailwindReact /> */}
       </main>
     </div>
   );
