@@ -6,7 +6,7 @@
 section {
   @apply flex flex-col h-fit py-2 items-center ;
   @apply px-2 bg-gradient-to-b from-teal-400/20 to-blue-400/30 border-b-4 pb-12 border-white;
-  @apply md:h-fit md:border-2 md:border-black/20 md:p-0 md:m-4 md:w-[400px] md:bg-none md:rounded;
+  @apply md:h-fit md:border-2 md:border-black/20 md:p-0 md:m-4 md:w-[450px] md:bg-none md:rounded;
 }
 
 .chunk {
@@ -17,28 +17,22 @@ section {
 
 /* --------------------------------------------------- */
 .terminal {
-  @apply flex flex-col text-left bg-black/90 text-lime-500/90 rounded-[3px] space-y-2;
+  @apply flex flex-col text-left bg-black/90 text-lime-400/90 rounded-[3px] space-y-2;
   @apply text-xs p-3 w-[350px]; 
-  @apply md:text-sm md:p-4 md:w-[380px];
+  @apply md:text-sm md:p-4 md:w-[420px];
 
   font-family: 'Courier New', Courier, monospace;  
   font-weight: bold;
 }
 
-.file {
-  @apply flex;
-  @apply flex-col;
-}
-
 .code {
   @apply flex flex-col text-left rounded-tl-none bg-black/90 text-sky-200 space-y-1 rounded-[3px];
   @apply p-3 w-[350px]; 
-  @apply md:p-4;
+  @apply md:p-4 md:w-[420px];
 
 
   font-family: monospace;  
   /* font-weight: bold; */
-  font-size: medium;
 }
 
 .form {
@@ -66,6 +60,12 @@ section {
 .instruction {
   @apply indent-2 text-sm;
 }
+
+/* .file {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+} */
 
 /* ------------------------------------------------------ */
 a {
@@ -104,8 +104,8 @@ body {
 pre, p {
 /* word-wrap:break-word; */
   @apply w-fit break-normal font-bold;
-  @apply text-xs ;
-  @apply md:text-sm;
+  @apply text-[14px];
+  /* @apply md:text-sm; */
 
 }
 /* ------------------------------------------------------ */

@@ -1,4 +1,6 @@
 function FlaskProject() {
+  const starter = "<!DOCTYPE html> ... </html>"
+
   return (
     <section>
         {/* title */}
@@ -10,7 +12,7 @@ function FlaskProject() {
 
       {/* ----------------- environment ------------------------- */}
       <div className="chunk">
-          <p className="instruction">set up the environment</p>
+          <p className="instruction">set up the environment:</p>
           <div className="terminal">
             <p>python3 -m venv venv</p>
             <p>source venv/bin/activate</p>
@@ -19,7 +21,7 @@ function FlaskProject() {
 
         {/* ----------------- flask ------------------------- */}
         <div className="chunk">
-          <p className="instruction">install flask</p>
+          <p className="instruction">install flask:</p>
           <div className="terminal">
             <p>pip3 install flask</p>
           </div>
@@ -27,7 +29,7 @@ function FlaskProject() {
 
         {/* ----------------- requirements ----------------------- */}
         <div className="chunk">
-          <p className="instruction">freeze requirements</p>
+          <p className="instruction">freeze requirements:</p>
           <div className="terminal">
             <p>pip3 freeze &gt; requirements.txt</p>
           </div>
@@ -35,7 +37,7 @@ function FlaskProject() {
 
         {/* ----------------- app.py ------------------------- */}
         <div className="chunk">
-          <p className="instruction">create app.py</p>
+          <p className="instruction">create app.py:</p>
           <div className="file">
             <p className="filename">app.py</p>
             <div className="code">
@@ -54,19 +56,19 @@ function FlaskProject() {
 
         {/* ----------------- templates ------------------------- */}
         <div className="chunk">
-          <p className="instruction">inside new templates folder, create index.html</p>
+          <p className="instruction">inside new templates folder, create index.html:</p>
 
           <div className="file">
             <p className="filename">index.html</p>
             <div className="code">
-              <p> html stuff </p>
+              <pre>{starter}</pre>
             </div>
           </div>
         </div>
 
         {/* ----------------- run ------------------------- */}
         <div className="chunk">
-          <p className="instruction">run</p>
+          <p className="instruction">run:</p>
           <div className="terminal">
             <p>python3 app.py</p>
           </div>

@@ -9,12 +9,12 @@ function JinjaHelp() {
 
         {/* ----------------- list length ------------------------- */}
         <div className="chunk">
-          <p className="instruction">list length</p>
-          <div className="file">
+          <p className="instruction">get list length:</p>
+          <div>
             <p className="filename">index.html</p>
             <div className="code">
               <p>&lt;p&gt; [% list | length %] &lt;/p&gt;</p>
-            </div>
+          </div>
           </div>
         </div>
     </section>

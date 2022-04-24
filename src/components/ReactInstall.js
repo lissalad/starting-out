@@ -7,7 +7,7 @@ function ReactInstall() {
         
         {/* ----------------- app ------------------------- */}
         <div className="chunk">
-          <p className="instruction">create app</p>
+          <p className="instruction">create app:</p>
           <div className="terminal">
             <p>npx create-react-app PROJECT-NAME</p>
             <p>cd PROJECT-NAME</p>
@@ -15,7 +15,7 @@ function ReactInstall() {
 
         {/* ----------------- run ------------------------- */}
         <div className="chunk">
-          <p className="instruction">run with</p>
+          <p className="instruction">run with:</p>
           <div className="terminal">
             <p>npm start</p>
           </div>
