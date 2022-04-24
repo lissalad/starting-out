@@ -4,27 +4,25 @@
 
 /* --------------------------------------------------- */
 section {
-  @apply flex flex-col rounded h-fit py-2 items-center;
-  @apply px-2;
-  @apply md:h-fit md:border-2 md:border-black/20 md:p-0 md:m-4 md:w-[400px];
+  @apply flex flex-col h-fit py-2 items-center ;
+  @apply px-2 bg-gradient-to-b from-teal-400/20 to-blue-400/30 border-b-4 pb-12 border-white;
+  @apply md:h-fit md:border-2 md:border-black/20 md:p-0 md:m-4 md:w-[400px] md:bg-none md:rounded;
 }
 
 .chunk {
-  @apply flex flex-col text-left space-y-[10px] my-4;
+  @apply flex flex-col text-left space-y-[10px] my-4 ;
   @apply text-left;
-  /* @apply w-[100px]; */
+  
 }
 
 /* --------------------------------------------------- */
 .terminal {
-  @apply flex flex-col text-left bg-black/90 text-lime-500/90 rounded-[3px];
+  @apply flex flex-col text-left bg-black/90 text-lime-500/90 rounded-[3px] space-y-2;
   @apply text-xs p-3 w-[350px]; 
-  @apply md:text-sm md:p-4;
-  /* @apply w-fit; */
+  @apply md:text-sm md:p-4 md:w-[380px];
 
   font-family: 'Courier New', Courier, monospace;  
   font-weight: bold;
-
 }
 
 .file {
@@ -59,7 +57,9 @@ section {
 }
 
 .title {
-  @apply text-2xl my-2 w-full;
+  @apply text-2xl mt-2 w-full;
+  /* @apply bg-rose-300/40 py-2;
+  @apply bg-none m-0; */
   /* @apply -mb-4; */
 }
 
@@ -80,9 +80,10 @@ a:hover {
 }
 
 input {
-  border: 2px black solid;
+  border: 2px rgba(0, 0, 0, 0.777) solid;
   border-radius: 4px;
-  margin: 10px;
+  margin: 9px 5px;
+  padding: 2px 4px;
 }
 
 button {
@@ -100,7 +101,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
+pre, p {
 /* word-wrap:break-word; */
+  @apply w-fit break-normal font-bold;
+  @apply text-xs ;
+  @apply md:text-sm;
+
 }
 /* ------------------------------------------------------ */

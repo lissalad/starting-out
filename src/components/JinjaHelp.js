@@ -1,4 +1,5 @@
 function JinjaHelp() {
+
   return (
     <section>
       {/* title */}
@@ -12,7 +13,7 @@ function JinjaHelp() {
           <div className="file">
             <p className="filename">index.html</p>
             <div className="code">
-              <p> &lt;p&gt; [% list | length %] (p)</p>
+              <p>&lt;p&gt; [% list | length %] &lt;/p&gt;</p>
             </div>
           </div>
         </div>
@@ -20,3 +21,5 @@ function JinjaHelp() {
   );
 }
 export default JinjaHelp;
+
+

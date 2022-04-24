@@ -39,7 +39,7 @@ function GithubRepo() {
           <p>git add .</p>
           <p>git commit -m "first"</p>
           <p>git branch -M main</p>
-          <p>
+          <p className="break-all">
             git git remote add origin <br></br>https://github.com/{username}/ 
             {repo}.git
           </p>
