@@ -12,10 +12,10 @@ function App() {
       <Header />
       <main className="m-3 flex flex-row flex-wrap">
         <GithubRepo />
-        {/* <JinjaHelp /> */}
-        {/* <FlaskProject /> */}
-        {/* <ReactInstall /> */}
-        {/* <TailwindReact /> */}
+        <JinjaHelp />
+        <FlaskProject />
+        <ReactInstall />
+        <TailwindReact />
       </main>
     </div>
   );

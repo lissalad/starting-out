@@ -16,12 +16,12 @@ function GithubRepo() {
   return (
     <div className="flex flex-col">
       {/* ----------------- basic ------------------------- */}
-      <div className="box">
+      <div className="box items-center">
         <h1 className="title">
           new <a href="https://github.com/">github</a> repo
         </h1>
 
-        <div>
+        <div className="flex flex-col items-end border-2 border-black/50 p-4 rounded-sm">
           <div>
             <label type="submit"> username</label>
             <input ref={userRef} type="text" name="term"></input>
@@ -30,7 +30,7 @@ function GithubRepo() {
             <label type="submit">repo name</label>
             <input ref={repoRef} type="text" name="term"></input>
           </div>
-          <button onClick={getLink} className="bg-sky-200 p-2">enter</button>
+          <button onClick={getLink}>enter</button>
         </div>
 
         {/* paste */}
