@@ -1,25 +1,24 @@
 function TailwindReact() {
 
   return (
-    <div className="flex flex-col ">
-      <div className="box">
-        {/* ------- tailwind ---------- */}
+    <section>
+        {/* title */}
         <h1 className="title">
           add <a href="https://tailwindcss.com/">tailwind</a> to react
         </h1>
 
-        {/* install */}
+        {/* ----------------- tailwind ------------------------- */}
         <div className="chunk">
-          <p>install tailwind</p>
+          <p className="instruction">install tailwind</p>
           <div className="terminal">
             <p>npm install -D tailwindcss postcss autoprefixer</p>
             <p>npx tailwindcss init -p</p>
           </div>
         </div>
 
-        {/* config */}
+        {/* ----------------- config ------------------------- */}
         <div className="chunk">
-          <p>edit config file so it can use tailwind in all files</p>
+          <p className="instruction">edit config file so it can use tailwind in all files</p>
           <div className="file">
             <p className="filename">tailwind.config.js</p>
             <div className="code">
@@ -36,9 +35,9 @@ function TailwindReact() {
           </div>
         </div>
 
-        {/* css file */}
+        {/* ----------------- css file ------------------------- */}
         <div className="chunk">
-          <p>add to top of css file</p>
+          <p className="instruction">add to top of css file</p>
           <div className="file">
             <p className="filename">index.css</p>
             <div className="code">
@@ -48,8 +47,7 @@ function TailwindReact() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+    </section>
   );
 }
 export default TailwindReact;

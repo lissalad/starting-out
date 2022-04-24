@@ -1,15 +1,14 @@
 function JinjaHelp() {
   return (
-    <div className="flex flex-row">
-      {/* ----------------- basic ------------------------- */}
-      <div className="box">
+    <section>
+      {/* title */}
         <h1 className="title">
           <a href="https://jinja.palletsprojects.com/en/3.1.x/">jinja</a> help
         </h1>
-        {/* list length */}
-        {/* config */}
+
+        {/* ----------------- list length ------------------------- */}
         <div className="chunk">
-          <p>list length</p>
+          <p className="instruction">list length</p>
           <div className="file">
             <p className="filename">index.html</p>
             <div className="code">
@@ -17,8 +16,7 @@ function JinjaHelp() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+    </section>
   );
 }
 export default JinjaHelp;

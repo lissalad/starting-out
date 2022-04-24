@@ -5,12 +5,14 @@ import ReactInstall from "./components/ReactInstall";
 import FlaskProject from "./components/FlaskProject";
 import TailwindReact from "./components/TailwindReact";
 import GithubRepo from "./components/GithubRepo";
+import EscapeChar from "./components/EscapeChar";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <main className="m-3 flex flex-row flex-wrap">
+      <main className="">
+        {/* <EscapeChar /> */}
         <GithubRepo />
         <JinjaHelp />
         <FlaskProject />
